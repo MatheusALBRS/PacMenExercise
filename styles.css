@@ -30,8 +30,8 @@
 }
 
 #area {
-  grid-column: 2 / 8;
-  grid-row: 2 / 8;
+  grid-column: 2 / 10;
+  grid-row: 2 / 10;
   background-color: rgb(88, 109, 180);
   position: relative;
   border-style: solid;
