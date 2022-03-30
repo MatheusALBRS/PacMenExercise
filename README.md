@@ -1,4 +1,4 @@
-# Pacman Excercise
+# Pacman Exercise
 ## Description
 This exercise is an exemple of how to manipulate multiple elements and make dinamic modifications in propreties of all those elements at once. In this case, we can create multiple pacmans and make them move around the box at random speeds. Every time one of them hits the wall, it will change movement direction accordingly.
 
