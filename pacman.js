@@ -1,6 +1,6 @@
 var list = [
-  ["./PacMan1.png", "./PacMan2.png"],
-  ["./PacMan3.png", "./PacMan4.png"],
+  ["./images/PacMan1.png", "./images/PacMan2.png"],
+  ["./images/PacMan3.png", "./images/PacMan4.png"],
 ];
 
 var paclist = [];
@@ -24,9 +24,7 @@ function createButtons() {
 }
 
 const toggleClass = () => {
-  if (
-    document.getElementById("runButton").classList == "btn btn-primary active"
-  ) {
+  if (document.getElementById("runButton").classList == "btn btn-primary active") {
     document.getElementById("runButton").classList = "btn btn-primary disabled";
   } else {
     document.getElementById("runButton").classList = "btn btn-primary active";
@@ -63,19 +61,11 @@ const runAction = () => {
 };
 
 const checkPosition = (item) => {
-  if (
-    item.position.x + item.velocity.x + item.pacman.width >
-      document.getElementById("area").offsetWidth ||
-    item.position.x + item.velocity.x < 0
-  ) {
+  if (item.position.x + item.velocity.x + item.pacman.width > document.getElementById("area").offsetWidth || item.position.x + item.velocity.x < 0) {
     item.velocity.x = -item.velocity.x;
   }
 
-  if (
-    item.position.y + item.velocity.y + item.pacman.height >
-      document.getElementById("area").offsetHeight ||
-    item.position.y + item.velocity.y < 0
-  ) {
+  if (item.position.y + item.velocity.y + item.pacman.height > document.getElementById("area").offsetHeight || item.position.y + item.velocity.y < 0) {
     item.velocity.y = -item.velocity.y;
   }
 };
