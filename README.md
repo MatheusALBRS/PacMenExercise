@@ -12,7 +12,7 @@ This exercise is an exemple of how to manipulate multiple elements and make dina
  </ul>
  
 ## Roadmap for future improvement
-To make it interactive, so that in addition to reverting from the boundary it also reverts when clicked by mouse.
+Make the pacmans compress when hit the edges of the box, and also make them constantly open and close their mouth.
  
 ## License
 MIT License
