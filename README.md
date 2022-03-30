@@ -1,6 +1,6 @@
 # Pacman Excercise
 ## Description
-In this exercise javascript is used to manipulate the dom by adding the image of a pacman at random position and at random speed.The image of pacman appears to be in motion as position of the image is constantly changing. As the pacman or image hits the client boundary it reverts back. Browser's width and height is compared with the position of image and its position is changed.
+This exercise is an exemple of how to manipulate multiple elements and make dinamic modifications in propreties of all those elements at once. In this case, we can create multiple pacmans and make them move around the box at random speeds. Every time one of them hits the wall, it will change movement direction accordingly.
 
 <a href="https://matheusalbrs.github.io/PacMenExercise/">pacman demo</a>
 
